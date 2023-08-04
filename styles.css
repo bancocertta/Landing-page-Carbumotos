@@ -87,7 +87,7 @@ a{
 }
 
 p{
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .contato_olx{
@@ -115,6 +115,7 @@ p{
 }
 
 .rodape{
+    font-size: 13px;
     color: aliceblue;
     display: flex;
     align-items: center;
@@ -141,11 +142,16 @@ p{
     width: 25px;
 }
 
+.mapa{
+    height: 140px;
+    width: 100px;
+    margin-right: 10px;
+}
+
 .maps{
     border-radius: 5px;
     height: 140px;
-    width: 110px;
-    margin-right: 10px;
+    width: 100px;
 }
 
 @media (min-width: 600px){
@@ -201,7 +207,7 @@ p{
     .mapa{
         font-size: 10px;
         height: 70px;
-        width: 160px;
+        width: 90px;
         margin-left: 10px;
     }
 
